@@ -85,10 +85,10 @@ CREATE TABLE Barn_Tasks (
 
 --  DATA INSERTIONS
 INSERT INTO Horse (Name, Breed, Age, Gender, Activity_Status) VALUES
-('Flash', 'Quarter Horse', '32', 'Mare', 'Retired'),
-('Beauty', 'Quarter Horse', '27', 'Mare', 'Active'),
-('Lightnin', 'Tenesee Walker', '23', 'Gelding', 'Active'),
-('Otis', 'Quarab', '17', 'Gelding', 'Active'),
+('Flash', 'Quarter Horse', 32, 'Mare', 'Retired'),
+('Beauty', 'Quarter Horse', 27, 'Mare', 'Active'),
+('Lightnin', 'Tenesee Walker', 23, 'Gelding', 'Active'),
+('Otis', 'Quarab', 17, 'Gelding', 'Active');
   
 
 INSERT INTO Student (F_Name, L_Name, Age, Riding_Level, Phone_Number) VALUES
@@ -122,5 +122,5 @@ INSERT INTO Lessons (Student_ID, Horse_ID, Staff_ID, Date, Length) VALUES
 
 INSERT INTO Barn_Tasks (Task_Name, Location, Staff_ID, Completion_Status, Completion_Date) VALUES
 ('Hay Delivery', 'Barn', 1, 'Completed', '2026-07-01'),
-('New Main Gate for B Triangle Field', 'B Triangle',3 , 'Pending', NULL),
+('New Main Gate for B Triangle Field', 'B Triangle', 3 , 'Pending', NULL),
 ('Replace Old Feed Buckets', 'Barn', 2, 'Pending', NULL);
