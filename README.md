@@ -1,7 +1,6 @@
 # DatabaseFinal
 
-This is going to be the space for my Database Design and Development final project
-I'm making my relational database system around a lesson horse barn
+This is my Database Design and Development final project - a relational database for a horse barn that does riding lessons.
 
 ## Use Intructions
 To see the three queries written in queries.sql, put:
@@ -14,7 +13,7 @@ in the terminal. To see them one at a time, or to make your own, type:
 
 ```
 
-sqlite horse_barn.db
+sqlite3 horse_barn.db
 
 .mode colunm
 .headers on
